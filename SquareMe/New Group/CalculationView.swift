@@ -9,24 +9,28 @@ import SwiftUI
 
 struct CalculationView: View {
     // MARK: Stored Properties
-    
+    @State var inputGiven: String = ""
     // MARK: Computed Properties
     var body: some View {
         VStack {
-            Text("2")
+            VStack {
+                TextField("5.5", text: $inputGiven)
+                    .font((.largeTitle))
+                    .padding()
+            }
+            .navigationTitle("Square Me")
+            
+            
         }
-        .navigationTitle("Square Me")
-        
-        VStack {
-            Text("2")
-        }
-        .navigationTitle("Square Me")
     }
    
 }
 
 struct CalculationView_Previews: PreviewProvider {
     static var previews: some View {
-        CalculationView()
+        NavigationView {
+            CalculationView()
+        }
+       
     }
 }
