@@ -11,6 +11,14 @@ struct CalculationView: View {
     // MARK: Stored Properties
     @State var inputGiven: String = ""
     // MARK: Computed Properties
+    
+    // Convert the input given into an optional Double
+    var inputGivenAsOptionalDouble: Double? {
+        guard let inputDouble = Double(inputGiven) else {
+            return nil
+        }
+        return inputDouble
+    }
     var body: some View {
         VStack {
             VStack {
