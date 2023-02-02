@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CA85BECF298C40E7000CD5FE /* SquareMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85BECE298C40E7000CD5FE /* SquareMeApp.swift */; };
-		CA85BED1298C40E7000CD5FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85BED0298C40E7000CD5FE /* ContentView.swift */; };
 		CA85BED3298C40E8000CD5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA85BED2298C40E8000CD5FE /* Assets.xcassets */; };
 		CA85BED6298C40E8000CD5FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA85BED5298C40E8000CD5FE /* Preview Assets.xcassets */; };
+		CA85BEDD298C40FE000CD5FE /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85BEDC298C40FE000CD5FE /* CalculationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA85BECB298C40E7000CD5FE /* SquareMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA85BECE298C40E7000CD5FE /* SquareMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareMeApp.swift; sourceTree = "<group>"; };
-		CA85BED0298C40E7000CD5FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA85BED2298C40E8000CD5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA85BED5298C40E8000CD5FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA85BEDC298C40FE000CD5FE /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculationView.swift; path = "../New Group/CalculationView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				CA85BECE298C40E7000CD5FE /* SquareMeApp.swift */,
-				CA85BED0298C40E7000CD5FE /* ContentView.swift */,
+				CA85BEDE298C4102000CD5FE /* View */,
 				CA85BED2298C40E8000CD5FE /* Assets.xcassets */,
 				CA85BED4298C40E8000CD5FE /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				CA85BED5298C40E8000CD5FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA85BEDE298C4102000CD5FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA85BEDC298C40FE000CD5FE /* CalculationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA85BED1298C40E7000CD5FE /* ContentView.swift in Sources */,
+				CA85BEDD298C40FE000CD5FE /* CalculationView.swift in Sources */,
 				CA85BECF298C40E7000CD5FE /* SquareMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
