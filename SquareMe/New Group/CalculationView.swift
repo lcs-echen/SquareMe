@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct CalculationView: View {
+    // MARK: Stored Properties
+    
+    // MARK: Computed Properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("2")
+        }
+        .navigationTitle("Square Me")
+        
+        VStack {
+            Text("2")
+        }
+        .navigationTitle("Square Me")
     }
+   
 }
 
 struct CalculationView_Previews: PreviewProvider {
